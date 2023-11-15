@@ -11,7 +11,6 @@ In this repository, I will be solving contracts using formal verification with t
 
 ### Build
 
--
 ```shell
 $ git submodule update --init --recursive
 ```
