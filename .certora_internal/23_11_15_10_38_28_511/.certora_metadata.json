@@ -1,0 +1,22 @@
+{
+    "CLI_version": "4.13.1",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "src/EXAMPLE_4/Token.sol"
+        ],
+        "process": "emv",
+        "verify": "Token:test/EXAMPLE_4/Certora/TokenCertora.spec"
+    },
+    "cwd_relative": ".",
+    "dirty": true,
+    "origin": "",
+    "raw_args": [
+        "/opt/homebrew/bin/certoraRun",
+        "src/EXAMPLE_4/Token.sol",
+        "--verify",
+        "Token:test/EXAMPLE_4/Certora/TokenCertora.spec"
+    ],
+    "revision": "2b7b35ed39b10124075f9741be7c743ffca57a35",
+    "timestamp": "1700037508.573452"
+}

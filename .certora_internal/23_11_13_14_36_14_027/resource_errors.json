@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (backdor.spec:11:14): Syntax error: unexpected token near `!=`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "CLI_version": "4.13.1",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "src/EXAMPLE_3/Counter.sol"
+        ],
+        "process": "emv",
+        "verify": "Counter:test/EXAMPLE_3/Certora/Counter.spec"
+    },
+    "cwd_relative": ".",
+    "dirty": true,
+    "origin": "",
+    "raw_args": [
+        "/opt/homebrew/bin/certoraRun",
+        "src/EXAMPLE_3/Counter.sol",
+        "--verify",
+        "Counter:test/EXAMPLE_3/Certora/Counter.spec"
+    ],
+    "revision": "2b7b35ed39b10124075f9741be7c743ffca57a35",
+    "timestamp": "1700033417.111638"
+}

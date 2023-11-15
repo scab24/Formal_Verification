@@ -1,0 +1,299 @@
+{
+    "Token_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mint",
+                        "notpayable": true,
+                        "paramNames": [
+                            "user",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "40c10f19",
+                        "stateMutability": "nonpayable",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "a9059cbb",
+                        "stateMutability": "nonpayable",
+                        "visibility": "external"
+                    }
+                ],
+                "bytecode": "608060405234801561001057600080fd5b50600436106100415760003560e01c806340c10f191461004657806370a0823114610062578063a9059cbb14610092575b600080fd5b610060600480360381019061005b91906102f4565b6100ae565b005b61007c60048036038101906100779190610334565b610195565b6040516100899190610370565b60405180910390f35b6100ac60048036038101906100a791906102f4565b6101ad565b005b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461013c576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610133906103e8565b60405180910390fd5b806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461018a9190610437565b925050819055505050565b60006020528060005260406000206000915090505481565b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546101fb919061046b565b92505081905550806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546102509190610437565b925050819055505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b600061028b82610260565b9050919050565b61029b81610280565b81146102a657600080fd5b50565b6000813590506102b881610292565b92915050565b6000819050919050565b6102d1816102be565b81146102dc57600080fd5b50565b6000813590506102ee816102c8565b92915050565b6000806040838503121561030b5761030a61025b565b5b6000610319858286016102a9565b925050602061032a858286016102df565b9150509250929050565b60006020828403121561034a5761034961025b565b5b6000610358848285016102a9565b91505092915050565b61036a816102be565b82525050565b60006020820190506103856000830184610361565b92915050565b600082825260208201905092915050565b7f4f6e6c79206f776e65722063616e206d696e7400000000000000000000000000600082015250565b60006103d260138361038b565b91506103dd8261039c565b602082019050919050565b60006020820190508181036000830152610401816103c5565b9050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610442826102be565b915061044d836102be565b925082820190508082111561046557610464610408565b5b92915050565b6000610476826102be565b9150610481836102be565b925082820390508181111561049957610498610408565b5b9291505056fea264697066735822122055b8a3cee1aa65f9c2eabd3e81885417a8e435bb90420f5d12949adbc016fd2964736f6c63430008120033",
+                "compilerName": "solc",
+                "compilerVersion": "0.8.18",
+                "constructorBytecode": "60a060405234801561001057600080fd5b503373ffffffffffffffffffffffffffffffffffffffff1660808173ffffffffffffffffffffffffffffffffffffffff16815250506080516104d561005f600039600060b001526104d56000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806340c10f191461004657806370a0823114610062578063a9059cbb14610092575b600080fd5b610060600480360381019061005b91906102f4565b6100ae565b005b61007c60048036038101906100779190610334565b610195565b6040516100899190610370565b60405180910390f35b6100ac60048036038101906100a791906102f4565b6101ad565b005b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461013c576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610133906103e8565b60405180910390fd5b806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825461018a9190610437565b925050819055505050565b60006020528060005260406000206000915090505481565b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546101fb919061046b565b92505081905550806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546102509190610437565b925050819055505050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b600061028b82610260565b9050919050565b61029b81610280565b81146102a657600080fd5b50565b6000813590506102b881610292565b92915050565b6000819050919050565b6102d1816102be565b81146102dc57600080fd5b50565b6000813590506102ee816102c8565b92915050565b6000806040838503121561030b5761030a61025b565b5b6000610319858286016102a9565b925050602061032a858286016102df565b9150509250929050565b60006020828403121561034a5761034961025b565b5b6000610358848285016102a9565b91505092915050565b61036a816102be565b82525050565b60006020820190506103856000830184610361565b92915050565b600082825260208201905092915050565b7f4f6e6c79206f776e65722063616e206d696e7400000000000000000000000000600082015250565b60006103d260138361038b565b91506103dd8261039c565b602082019050919050565b60006020820190508181036000830152610401816103c5565b9050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610442826102be565b915061044d836102be565b925082820190508082111561046557610464610408565b5b92915050565b6000610476826102be565b9150610481836102be565b925082820390508181111561049957610498610408565b5b9291505056fea264697066735822122055b8a3cee1aa65f9c2eabd3e81885417a8e435bb90420f5d12949adbc016fd2964736f6c63430008120033",
+                "constructorSrcmap": "65:454:0:-:0;;;166:49;;;;;;;;;;198:10;190:18;;;;;;;;;;65:454;;;;;;;;;;;;",
+                "file": "src/EXAMPLE_4/Token.sol",
+                "immutables": [
+                    {
+                        "length": 32,
+                        "offset": 176,
+                        "varname": "owner"
+                    }
+                ],
+                "internalFunctions": {},
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mint",
+                        "notpayable": true,
+                        "paramNames": [
+                            "user",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "40c10f19",
+                        "stateMutability": "nonpayable",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "a9059cbb",
+                        "stateMutability": "nonpayable",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    }
+                ],
+                "name": "Token",
+                "optimizationFlags": "",
+                "original_file": "src/EXAMPLE_4/Token.sol",
+                "solidityTypes": [],
+                "srcmap": "65:454:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;221:156;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;115:44;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;383:133;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;221:156;306:5;292:19;;:10;:19;;;284:51;;;;;;;;;;;;:::i;:::-;;;;;;;;;364:6;345:9;:15;355:4;345:15;;;;;;;;;;;;;;;;:25;;;;;;;:::i;:::-;;;;;;;;221:156;;:::o;115:44::-;;;;;;;;;;;;;;;;;:::o;383:133::-;470:6;445:9;:21;455:10;445:21;;;;;;;;;;;;;;;;:31;;;;;;;:::i;:::-;;;;;;;;503:6;486:9;:13;496:2;486:13;;;;;;;;;;;;;;;;:23;;;;;;;:::i;:::-;;;;;;;;383:133;;:::o;88:117:1:-;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:139::-;742:5;780:6;767:20;758:29;;796:33;823:5;796:33;:::i;:::-;696:139;;;;:::o;841:77::-;878:7;907:5;896:16;;841:77;;;:::o;924:122::-;997:24;1015:5;997:24;:::i;:::-;990:5;987:35;977:63;;1036:1;1033;1026:12;977:63;924:122;:::o;1052:139::-;1098:5;1136:6;1123:20;1114:29;;1152:33;1179:5;1152:33;:::i;:::-;1052:139;;;;:::o;1197:474::-;1265:6;1273;1322:2;1310:9;1301:7;1297:23;1293:32;1290:119;;;1328:79;;:::i;:::-;1290:119;1448:1;1473:53;1518:7;1509:6;1498:9;1494:22;1473:53;:::i;:::-;1463:63;;1419:117;1575:2;1601:53;1646:7;1637:6;1626:9;1622:22;1601:53;:::i;:::-;1591:63;;1546:118;1197:474;;;;;:::o;1677:329::-;1736:6;1785:2;1773:9;1764:7;1760:23;1756:32;1753:119;;;1791:79;;:::i;:::-;1753:119;1911:1;1936:53;1981:7;1972:6;1961:9;1957:22;1936:53;:::i;:::-;1926:63;;1882:117;1677:329;;;;:::o;2012:118::-;2099:24;2117:5;2099:24;:::i;:::-;2094:3;2087:37;2012:118;;:::o;2136:222::-;2229:4;2267:2;2256:9;2252:18;2244:26;;2280:71;2348:1;2337:9;2333:17;2324:6;2280:71;:::i;:::-;2136:222;;;;:::o;2364:169::-;2448:11;2482:6;2477:3;2470:19;2522:4;2517:3;2513:14;2498:29;;2364:169;;;;:::o;2539:::-;2679:21;2675:1;2667:6;2663:14;2656:45;2539:169;:::o;2714:366::-;2856:3;2877:67;2941:2;2936:3;2877:67;:::i;:::-;2870:74;;2953:93;3042:3;2953:93;:::i;:::-;3071:2;3066:3;3062:12;3055:19;;2714:366;;;:::o;3086:419::-;3252:4;3290:2;3279:9;3275:18;3267:26;;3339:9;3333:4;3329:20;3325:1;3314:9;3310:17;3303:47;3367:131;3493:4;3367:131;:::i;:::-;3359:139;;3086:419;;;:::o;3511:180::-;3559:77;3556:1;3549:88;3656:4;3653:1;3646:15;3680:4;3677:1;3670:15;3697:191;3737:3;3756:20;3774:1;3756:20;:::i;:::-;3751:25;;3790:20;3808:1;3790:20;:::i;:::-;3785:25;;3833:1;3830;3826:9;3819:16;;3854:3;3851:1;3848:10;3845:36;;;3861:18;;:::i;:::-;3845:36;3697:191;;;;:::o;3894:194::-;3934:4;3954:20;3972:1;3954:20;:::i;:::-;3949:25;;3988:20;4006:1;3988:20;:::i;:::-;3983:25;;4032:1;4029;4025:9;4017:17;;4056:1;4050:4;4047:11;4044:37;;;4061:18;;:::i;:::-;4044:37;3894:194;;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 7,
+                            "contract": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_11_030/.certora_sources/src/EXAMPLE_4/Token.sol:Token",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "balanceOf",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_mapping(t_address,t_uint256)"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        },
+                        "t_mapping(t_address,t_uint256)": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => uint256)",
+                            "numberOfBytes": "32",
+                            "value": "t_uint256"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "types": [],
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "Token",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Token.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/EXAMPLE_4/Token.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

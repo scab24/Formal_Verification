@@ -1,0 +1,347 @@
+{
+    "Vault_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "deposit",
+                        "notpayable": true,
+                        "paramNames": [
+                            "assets"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "b6b55f25",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mint",
+                        "notpayable": true,
+                        "paramNames": [
+                            "shares"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a0712d68",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalAssets",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "01e1d114",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalShares",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "3a98ef39",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    }
+                ],
+                "bytecode": "608060405234801561001057600080fd5b506004361061004c5760003560e01c806301e1d114146100515780633a98ef391461006f578063a0712d681461008d578063b6b55f25146100bd575b600080fd5b6100596100ed565b60405161006691906102e2565b60405180910390f35b6100776100f3565b60405161008491906102e2565b60405180910390f35b6100a760048036038101906100a2919061032e565b6100f9565b6040516100b491906102e2565b60405180910390f35b6100d760048036038101906100d2919061032e565b6101e1565b6040516100e491906102e2565b60405180910390f35b60005481565b60015481565b600064f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000352817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00006000526001546000548361019f919061038a565b6101a991906103fb565b9050806000808282546101bc919061042c565b9250508190555081600160008282546101d5919061042c565b92505081905550919050565b600064f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000352817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160005260005460015483610287919061038a565b61029191906103fb565b9050816000808282546102a4919061042c565b9250508190555080600160008282546102bd919061042c565b92505081905550919050565b6000819050919050565b6102dc816102c9565b82525050565b60006020820190506102f760008301846102d3565b92915050565b600080fd5b61030b816102c9565b811461031657600080fd5b50565b60008135905061032881610302565b92915050565b600060208284031215610344576103436102fd565b5b600061035284828501610319565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610395826102c9565b91506103a0836102c9565b92508282026103ae816102c9565b915082820484148315176103c5576103c461035b565b5b5092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b6000610406826102c9565b9150610411836102c9565b925082610421576104206103cc565b5b828204905092915050565b6000610437826102c9565b9150610442836102c9565b925082820190508082111561045a5761045961035b565b5b9291505056fea26469706673582212205566e5b155e93aa1f31b9e318909ba3f975891c9b760a77aaa7e3adb1de4e9d464736f6c63430008120033",
+                "compilerName": "solc",
+                "compilerVersion": "0.8.18",
+                "constructorBytecode": "608060405234801561001057600080fd5b50610496806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806301e1d114146100515780633a98ef391461006f578063a0712d681461008d578063b6b55f25146100bd575b600080fd5b6100596100ed565b60405161006691906102e2565b60405180910390f35b6100776100f3565b60405161008491906102e2565b60405180910390f35b6100a760048036038101906100a2919061032e565b6100f9565b6040516100b491906102e2565b60405180910390f35b6100d760048036038101906100d2919061032e565b6101e1565b6040516100e491906102e2565b60405180910390f35b60005481565b60015481565b600064f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000352817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00006000526001546000548361019f919061038a565b6101a991906103fb565b9050806000808282546101bc919061042c565b9250508190555081600160008282546101d5919061042c565b92505081905550919050565b600064f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000352817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160005260005460015483610287919061038a565b61029191906103fb565b9050816000808282546102a4919061042c565b9250508190555080600160008282546102bd919061042c565b92505081905550919050565b6000819050919050565b6102dc816102c9565b82525050565b60006020820190506102f760008301846102d3565b92915050565b600080fd5b61030b816102c9565b811461031657600080fd5b50565b60008135905061032881610302565b92915050565b600060208284031215610344576103436102fd565b5b600061035284828501610319565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610395826102c9565b91506103a0836102c9565b92508282026103ae816102c9565b915082820484148315176103c5576103c461035b565b5b5092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b6000610406826102c9565b9150610411836102c9565b925082610421576104206103cc565b5b828204905092915050565b6000610437826102c9565b9150610442836102c9565b925082820190508082111561045a5761045961035b565b5b9291505056fea26469706673582212205566e5b155e93aa1f31b9e318909ba3f975891c9b760a77aaa7e3adb1de4e9d464736f6c63430008120033",
+                "constructorSrcmap": "70:1144:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "file": "src/EXAMPLE_1/Vault.sol",
+                "immutables": [],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/EXAMPLE_1/Vault.sol|Vault",
+                        "declaringContract": "Vault",
+                        "method": {
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "mint",
+                            "notpayable": true,
+                            "paramNames": [
+                                "shares"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "a0712d68",
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/EXAMPLE_1/Vault.sol|Vault",
+                        "declaringContract": "Vault",
+                        "method": {
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "deposit",
+                            "notpayable": true,
+                            "paramNames": [
+                                "assets"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "b6b55f25",
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    }
+                },
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mint",
+                        "notpayable": true,
+                        "paramNames": [
+                            "shares"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a0712d68",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalShares",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "3a98ef39",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalAssets",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "01e1d114",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "deposit",
+                        "notpayable": true,
+                        "paramNames": [
+                            "assets"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "b6b55f25",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    }
+                ],
+                "name": "Vault",
+                "optimizationFlags": "",
+                "original_file": "src/EXAMPLE_1/Vault.sol",
+                "solidityTypes": [],
+                "srcmap": "70:1144:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;91:23;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;120;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;681:531;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;150:525;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;91:23;;;;:::o;120:::-;;;;:::o;681:531::-;724:11;824:13;756:66;749:89;914:1;846:66;839:77;992:1;924:66;917:77;1070:6;1002:66;995:82;1122:11;;1107;;1098:6;:20;;;;:::i;:::-;1097:36;;;;:::i;:::-;1088:45;;1168:6;1153:11;;:21;;;;;;;:::i;:::-;;;;;;;;1199:6;1184:11;;:21;;;;;;;:::i;:::-;;;;;;;;681:531;;;:::o;150:525::-;196:11;296:13;228:66;221:89;386:1;318:66;311:77;464:1;396:66;389:77;542:6;474:66;467:82;594:11;;579;;570:6;:20;;;;:::i;:::-;569:36;;;;:::i;:::-;560:45;;631:6;616:11;;:21;;;;;;;:::i;:::-;;;;;;;;662:6;647:11;;:21;;;;;;;:::i;:::-;;;;;;;;150:525;;;:::o;7:77:1:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;523:117::-;632:1;629;622:12;769:122;842:24;860:5;842:24;:::i;:::-;835:5;832:35;822:63;;881:1;878;871:12;822:63;769:122;:::o;897:139::-;943:5;981:6;968:20;959:29;;997:33;1024:5;997:33;:::i;:::-;897:139;;;;:::o;1042:329::-;1101:6;1150:2;1138:9;1129:7;1125:23;1121:32;1118:119;;;1156:79;;:::i;:::-;1118:119;1276:1;1301:53;1346:7;1337:6;1326:9;1322:22;1301:53;:::i;:::-;1291:63;;1247:117;1042:329;;;;:::o;1377:180::-;1425:77;1422:1;1415:88;1522:4;1519:1;1512:15;1546:4;1543:1;1536:15;1563:410;1603:7;1626:20;1644:1;1626:20;:::i;:::-;1621:25;;1660:20;1678:1;1660:20;:::i;:::-;1655:25;;1715:1;1712;1708:9;1737:30;1755:11;1737:30;:::i;:::-;1726:41;;1916:1;1907:7;1903:15;1900:1;1897:22;1877:1;1870:9;1850:83;1827:139;;1946:18;;:::i;:::-;1827:139;1611:362;1563:410;;;;:::o;1979:180::-;2027:77;2024:1;2017:88;2124:4;2121:1;2114:15;2148:4;2145:1;2138:15;2165:185;2205:1;2222:20;2240:1;2222:20;:::i;:::-;2217:25;;2256:20;2274:1;2256:20;:::i;:::-;2251:25;;2295:1;2285:35;;2300:18;;:::i;:::-;2285:35;2342:1;2339;2335:9;2330:14;;2165:185;;;;:::o;2356:191::-;2396:3;2415:20;2433:1;2415:20;:::i;:::-;2410:25;;2449:20;2467:1;2449:20;:::i;:::-;2444:25;;2492:1;2489;2485:9;2478:16;;2513:3;2510:1;2507:10;2504:36;;;2520:18;;:::i;:::-;2504:36;2356:191;;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 3,
+                            "contract": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_14_10_48_35_216/.certora_sources/src/EXAMPLE_1/Vault.sol:Vault",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "totalAssets",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 5,
+                            "contract": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_14_10_48_35_216/.certora_sources/src/EXAMPLE_1/Vault.sol:Vault",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "totalShares",
+                            "offset": 0,
+                            "slot": "1",
+                            "type": "t_uint256"
+                        }
+                    ],
+                    "types": {
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "types": [],
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "Vault",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Vault.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/EXAMPLE_1/Vault.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

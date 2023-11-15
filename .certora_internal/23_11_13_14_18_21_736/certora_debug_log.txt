@@ -1,0 +1,37 @@
+Saving last configuration file to .certora_internal/23_11_13_14_18_21_736/run.conf
+Default package file package.json not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+Default package file remappings.txt not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec, found the imports: []
+copying spec file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec to /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_sources/.0_backdor.spec.spec
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec, found the imports: []
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_verify.json
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_verify.cvl1.json
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736']
+
+building file src/EXAMPLE_2/backdor.sol
+Running cmd /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/backdor.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples",. --standard-json
+stdout, stderr = /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/backdor.sol_0.standard.json.stdout, /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/backdor.sol_0.standard.json.stderr
+Exitcode 0
+Solc run /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/backdor.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples",. --standard-json time: 0.1398
+reading standard json data from /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/backdor.sol_0.standard.json.stdout
+Running cmd /opt/homebrew/bin/solc --version
+stdout, stderr = /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/version_check_solc.stdout, /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_18_21_736/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run /opt/homebrew/bin/solc --version time: 0.075
+collecting worklist for /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol
+Processing dependencies from file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol
+available keys: dict_keys(['/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol'])
+Contracts in backdor.sol_0 (file src/EXAMPLE_2/backdor.sol): ['PostExample']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol:PostExample')]
+Working on contract PostExample
+Working on contract PostExample
+For contracts of primary backdor
+finding primary contract address of /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol:backdor in [(274184521717934524641157099916833587200, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol:PostExample')]
+build failed
+Failure traceback: 
+Shared.certoraUtils.CertoraUserInputError: Failed to find a contract named backdor in file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol. Please make sure there is a file named like the contract, or a file containing a contract with this name. Available contracts: /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol:PostExample
+Encountered an error running Certora Prover:
+Failed to find a contract named backdor in file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol. Please make sure there is a file named like the contract, or a file containing a contract with this name. Available contracts: /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_2/backdor.sol:PostExample

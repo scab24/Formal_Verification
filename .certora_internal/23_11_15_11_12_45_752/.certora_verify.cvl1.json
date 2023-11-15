@@ -1,0 +1,10 @@
+[
+    {
+        "importFilesToOrigRelpaths": {},
+        "primary_contract": "Token",
+        "specfile": ".certora_internal/23_11_15_11_12_45_752/.certora_sources/.0_TokenCertora.spec.spec",
+        "specfileOrigRelpath": "test/EXAMPLE_4/Certora/TokenCertora.spec",
+        "specfilesToImportDecls": {},
+        "type": "spec"
+    }
+]

@@ -1,0 +1,237 @@
+{
+    "Counter_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "increment",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "d09de08a",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "number",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8381f58a",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "setNumber",
+                        "notpayable": true,
+                        "paramNames": [
+                            "newNumber",
+                            "inLuck"
+                        ],
+                        "returns": [],
+                        "sighash": "7705040d",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    }
+                ],
+                "bytecode": "608060405234801561001057600080fd5b50600436106100415760003560e01c80637705040d146100465780638381f58a14610062578063d09de08a14610080575b600080fd5b610060600480360381019061005b9190610277565b61008a565b005b61006a610175565b60405161007791906102c6565b60405180910390f35b61008861017b565b005b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000352807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00016001528160008190555062c0ffee8214801561013a575060011515811515145b15610171576040517f030425a500000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b5050565b60005481565b64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000002526000808154809291906101fd90610310565b9190505550565b600080fd5b6000819050919050565b61021c81610209565b811461022757600080fd5b50565b60008135905061023981610213565b92915050565b60008115159050919050565b6102548161023f565b811461025f57600080fd5b50565b6000813590506102718161024b565b92915050565b6000806040838503121561028e5761028d610204565b5b600061029c8582860161022a565b92505060206102ad85828601610262565b9150509250929050565b6102c081610209565b82525050565b60006020820190506102db60008301846102b7565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061031b82610209565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff820361034d5761034c6102e1565b5b60018201905091905056fea26469706673582212200047c58c6592445e675cbae69f9fab63bb22a3e3d512eda839392533ea39ab1e64736f6c63430008120033",
+                "compilerName": "solc",
+                "compilerVersion": "0.8.18",
+                "constructorBytecode": "608060405234801561001057600080fd5b5061038e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80637705040d146100465780638381f58a14610062578063d09de08a14610080575b600080fd5b610060600480360381019061005b9190610277565b61008a565b005b61006a610175565b60405161007791906102c6565b60405180910390f35b61008861017b565b005b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000352807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00016001528160008190555062c0ffee8214801561013a575060011515811515145b15610171576040517f030425a500000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b5050565b60005481565b64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000002526000808154809291906101fd90610310565b9190505550565b600080fd5b6000819050919050565b61021c81610209565b811461022757600080fd5b50565b60008135905061023981610213565b92915050565b60008115159050919050565b6102548161023f565b811461025f57600080fd5b50565b6000813590506102718161024b565b92915050565b6000806040838503121561028e5761028d610204565b5b600061029c8582860161022a565b92505060206102ad85828601610262565b9150509250929050565b6102c081610209565b82525050565b60006020820190506102db60008301846102b7565b92915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061031b82610209565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff820361034d5761034c6102e1565b5b60018201905091905056fea26469706673582212200047c58c6592445e675cbae69f9fab63bb22a3e3d512eda839392533ea39ab1e64736f6c63430008120033",
+                "constructorSrcmap": "87:899:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "file": "src/EXAMPLE_3/Counter.sol",
+                "immutables": [],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/EXAMPLE_3/Counter.sol|Counter",
+                        "declaringContract": "Counter",
+                        "method": {
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "increment",
+                            "notpayable": true,
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "d09de08a",
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/EXAMPLE_3/Counter.sol|Counter",
+                        "declaringContract": "Counter",
+                        "method": {
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "setNumber",
+                            "notpayable": true,
+                            "paramNames": [
+                                "newNumber",
+                                "inLuck"
+                            ],
+                            "returns": [],
+                            "sighash": "7705040d",
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    }
+                },
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "increment",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "d09de08a",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "setNumber",
+                        "notpayable": true,
+                        "paramNames": [
+                            "newNumber",
+                            "inLuck"
+                        ],
+                        "returns": [],
+                        "sighash": "7705040d",
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "number",
+                        "notpayable": true,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8381f58a",
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    }
+                ],
+                "name": "Counter",
+                "optimizationFlags": "",
+                "original_file": "src/EXAMPLE_3/Counter.sol",
+                "solidityTypes": [],
+                "srcmap": "87:899:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;136:528;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;109:21;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;673:311;;;:::i;:::-;;136:528;281:13;213:66;206:89;371:1;303:66;296:77;449:1;381:66;374:77;527:6;459:66;452:82;553:9;544:6;:18;;;;588:8;575:9;:21;:39;;;;;610:4;600:14;;:6;:14;;;575:39;571:88;;;636:13;;;;;;;;;;;;;;571:88;136:528;;:::o;109:21::-;;;;:::o;673:311::-;788:13;720:66;713:89;878:1;810:66;803:77;956:1;888:66;881:77;969:6;;:8;;;;;;;;;:::i;:::-;;;;;;673:311::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:90::-;724:7;767:5;760:13;753:21;742:32;;690:90;;;:::o;786:116::-;856:21;871:5;856:21;:::i;:::-;849:5;846:32;836:60;;892:1;889;882:12;836:60;786:116;:::o;908:133::-;951:5;989:6;976:20;967:29;;1005:30;1029:5;1005:30;:::i;:::-;908:133;;;;:::o;1047:468::-;1112:6;1120;1169:2;1157:9;1148:7;1144:23;1140:32;1137:119;;;1175:79;;:::i;:::-;1137:119;1295:1;1320:53;1365:7;1356:6;1345:9;1341:22;1320:53;:::i;:::-;1310:63;;1266:117;1422:2;1448:50;1490:7;1481:6;1470:9;1466:22;1448:50;:::i;:::-;1438:60;;1393:115;1047:468;;;;;:::o;1521:118::-;1608:24;1626:5;1608:24;:::i;:::-;1603:3;1596:37;1521:118;;:::o;1645:222::-;1738:4;1776:2;1765:9;1761:18;1753:26;;1789:71;1857:1;1846:9;1842:17;1833:6;1789:71;:::i;:::-;1645:222;;;;:::o;1873:180::-;1921:77;1918:1;1911:88;2018:4;2015:1;2008:15;2042:4;2039:1;2032:15;2059:233;2098:3;2121:24;2139:5;2121:24;:::i;:::-;2112:33;;2167:66;2160:5;2157:77;2154:103;;2237:18;;:::i;:::-;2154:103;2284:1;2277:5;2273:13;2266:20;;2059:233;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 5,
+                            "contract": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_09_30_17_513/.certora_sources/src/EXAMPLE_3/Counter.sol:Counter",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "number",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_uint256"
+                        }
+                    ],
+                    "types": {
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "types": [],
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "Counter",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Counter.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/EXAMPLE_3/Counter.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

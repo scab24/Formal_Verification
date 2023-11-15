@@ -1,0 +1,22 @@
+{
+    "CLI_version": "4.13.1",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "src/EXAMPLE_2/backdor.sol"
+        ],
+        "process": "emv",
+        "verify": "backdor:test/EXAMPLE_2/Certora/backdor.spec"
+    },
+    "cwd_relative": ".",
+    "dirty": true,
+    "origin": "",
+    "raw_args": [
+        "/opt/homebrew/bin/certoraRun",
+        "src/EXAMPLE_2/backdor.sol",
+        "--verify",
+        "backdor:test/EXAMPLE_2/Certora/backdor.spec"
+    ],
+    "revision": "2b7b35ed39b10124075f9741be7c743ffca57a35",
+    "timestamp": "1699877776.019531"
+}

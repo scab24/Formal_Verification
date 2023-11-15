@@ -1,0 +1,10 @@
+[
+    {
+        "importFilesToOrigRelpaths": {},
+        "primary_contract": "Vault",
+        "specfile": ".certora_internal/23_11_13_13_51_56_676/.certora_sources/.0_Vault.spec.spec",
+        "specfileOrigRelpath": "test/EXAMPLE_1/Certora/Vault.spec",
+        "specfilesToImportDecls": {},
+        "type": "spec"
+    }
+]

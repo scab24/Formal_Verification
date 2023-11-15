@@ -1,0 +1,28 @@
+Saving last configuration file to .certora_internal/23_11_13_14_21_35_464/run.conf
+Default package file package.json not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+Default package file remappings.txt not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464/.certora_config
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec, found the imports: []
+copying spec file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec to /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464/.certora_sources/.0_backdor.spec.spec
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec, found the imports: []
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464/.certora_verify.json
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464/.certora_verify.cvl1.json
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464']
+Failed to compile spec file in /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_13_14_21_35_464
+Found errors
+[main] ERROR ALWAYS - Error in spec file (backdor.spec:2:42): Since CVL 2, methods block entries must end with `;`
+[main] ERROR ALWAYS - Error in spec file (backdor.spec:2:47): Syntax error: unexpected token near `;`
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar', '-v', '.certora_internal/23_11_13_14_21_35_464/.certora_verify.cvl1.json', '-d', '.certora_internal/23_11_13_14_21_35_464']
+Execution of command "java -jar /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar -v .certora_internal/23_11_13_14_21_35_464/.certora_verify.cvl1.json -d .certora_internal/23_11_13_14_21_35_464" terminated with exitcode 1.
+[main] ERROR ALWAYS - test/EXAMPLE_2/Certora/backdor.spec:2:5: Syntax error: unexpected token near FUNCTION(function)
+[main] ERROR ALWAYS - test/EXAMPLE_2/Certora/backdor.spec:2:5: Couldn't repair and continue parse unexpected token near FUNCTION(function)
+[main] ERROR ALWAYS - CVL parser failed with exception. Exception message: "Failed to parse test/EXAMPLE_2/Certora/backdor.spec. Exiting."
+spec.CVLAstBuilder$CVLParsingException: java.lang.Exception: Failed to parse test/EXAMPLE_2/Certora/backdor.spec. Exiting.
+build failed
+Failure traceback: 
+Shared.certoraUtils.CertoraUserInputError: CVL specification syntax check failed
+Encountered an error running Certora Prover:
+CVL specification syntax check failed

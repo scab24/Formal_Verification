@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Token",
+    "specfile": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_4/Certora/TokenCertora.spec",
+    "specfileOrigRelpath": "test/EXAMPLE_4/Certora/TokenCertora.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

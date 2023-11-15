@@ -1,0 +1,10 @@
+[
+    {
+        "importFilesToOrigRelpaths": {},
+        "primary_contract": "backdor",
+        "specfile": ".certora_internal/23_11_13_14_18_21_736/.certora_sources/.0_backdor.spec.spec",
+        "specfileOrigRelpath": "test/EXAMPLE_2/Certora/backdor.spec",
+        "specfilesToImportDecls": {},
+        "type": "spec"
+    }
+]

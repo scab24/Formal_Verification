@@ -1,0 +1,22 @@
+{
+    "CLI_version": "4.13.1",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "src/EXAMPLE_1/Vault.sol"
+        ],
+        "process": "emv",
+        "verify": "Vault:test/EXAMPLE_1/Certora/Vault.spec"
+    },
+    "cwd_relative": ".",
+    "dirty": true,
+    "origin": "",
+    "raw_args": [
+        "/opt/homebrew/bin/certoraRun",
+        "src/EXAMPLE_1/Vault.sol",
+        "--verify",
+        "Vault:test/EXAMPLE_1/Certora/Vault.spec"
+    ],
+    "revision": "2b7b35ed39b10124075f9741be7c743ffca57a35",
+    "timestamp": "1699876403.594828"
+}

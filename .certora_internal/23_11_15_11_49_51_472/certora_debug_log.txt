@@ -1,0 +1,75 @@
+Saving last configuration file to .certora_internal/23_11_15_11_49_51_472/run.conf
+Default package file package.json not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+Default package file remappings.txt not found, external contract dependencies could be unresolved. Ignore if solc invocation was successful
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_4/Certora/TokenCertora.spec, found the imports: []
+copying spec file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_4/Certora/TokenCertora.spec to /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/.0_TokenCertora.spec.spec
+In /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_4/Certora/TokenCertora.spec, found the imports: []
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_verify.json
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_verify.cvl1.json
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472']
+
+building file src/EXAMPLE_4/Token.sol
+Running cmd /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples",. --standard-json
+stdout, stderr = /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stdout, /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stderr
+Exitcode 0
+Solc run /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples",. --standard-json time: 0.1368
+reading standard json data from /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stdout
+Running cmd /opt/homebrew/bin/solc --version
+stdout, stderr = /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/version_check_solc.stdout, /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run /opt/homebrew/bin/solc --version time: 0.0654
+collecting worklist for /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol
+Processing dependencies from file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol
+available keys: dict_keys(['/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol'])
+Contracts in Token.sol_0 (file src/EXAMPLE_4/Token.sol): ['Token']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol:Token')]
+Working on contract Token
+Working on contract Token
+For contracts of primary Token
+finding primary contract address of /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol:Token in [(274184521717934524641157099916833587200, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol:Token')]
+Contracts in SDC Token.sol_0: ['Token']
+Building source tree
+Copying /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/src/EXAMPLE_4/Token.sol to .certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol
+Copying /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_4/Certora/TokenCertora.spec to .certora_internal/23_11_15_11_49_51_472/.certora_sources/test/EXAMPLE_4/Certora/TokenCertora.spec
+Backing up current .certora_sources to .certora_internal/23_11_15_11_49_51_472/.certora_sources/.pre_autofinders.0
+Running cmd /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources",. --standard-json
+stdout, stderr = /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stdout, /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stderr
+Exitcode 0
+Solc run /opt/homebrew/bin/solc -o "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0/" --overwrite --allow-paths "/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources",. --standard-json time: 0.0881
+reading standard json data from /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_config/Token.sol_0.standard.json.stdout
+collecting worklist for /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol
+Processing dependencies from file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol
+available keys: dict_keys(['/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol'])
+Contracts in Token.sol_0 (file .certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol): ['Token']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587201, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol:Token')]
+Working on contract Token
+Working on contract Token
+For contracts of primary Token
+finding primary contract address of /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol:Token in [(274184521717934524641157099916833587201, '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_sources/src/EXAMPLE_4/Token.sol:Token')]
+Contracts in SDC Token.sol_0: ['Token']
+Backing up instrumented .certora_sources to .certora_internal/23_11_15_11_49_51_472/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/23_11_15_11_49_51_472/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_verify.json
+writing file /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472/.certora_build.json
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.jar', '-buildDirectory', '/Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472', '-typeCheck']
+Failed to compile spec file in /Users/secoalba/Documents/PROGRAMACIÓN/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/.certora_internal/23_11_15_11_49_51_472
+Found errors
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:12:29): could not type expression "balanceOf(user)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:16:10): could not type expression "balanceOf(user)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:25:31): could not type expression "balanceOf(from)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:26:29): could not type expression "balanceOf(to)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:32:10): could not type expression "balanceOf(from)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+[main] ERROR ALWAYS - Error in spec file (TokenCertora.spec:35:10): could not type expression "balanceOf(to)", message: Missing environment parameter to non-envfree function Token.balanceOf(address) returns (uint256)
+Path to typechecker is /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar
+running ['java', '-jar', '/opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar', '-v', '.certora_internal/23_11_15_11_49_51_472/.certora_verify.cvl1.json', '-d', '.certora_internal/23_11_15_11_49_51_472', '-b', '.certora_internal/23_11_15_11_49_51_472/.certora_build.json']
+Execution of command "java -jar /opt/homebrew/lib/python3.11/site-packages/certora_jars/Typechecker.3.6.5.jar -v .certora_internal/23_11_15_11_49_51_472/.certora_verify.cvl1.json -d .certora_internal/23_11_15_11_49_51_472 -b .certora_internal/23_11_15_11_49_51_472/.certora_build.json" terminated with exitcode 1.
+kotlinx.serialization.MissingFieldException: Fields [baseType, typeDescription, arrayDims] are required for type with serial name 'bridge.SolidityType', but they were missing at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0] at path: $['Token_00000000ce4604a0000000000000000000000001'].contracts[0].allMethods[0].fullArgs[0]
+Failure traceback: 
+Shared.certoraUtils.CertoraUserInputError: CVL specification syntax and type check failed
+Encountered an error running Certora Prover:
+CVL specification syntax and type check failed

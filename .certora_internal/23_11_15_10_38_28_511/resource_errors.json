@@ -1,0 +1,17 @@
+{
+    "topics": [
+        {
+            "name": "type_check",
+            "messages": [
+                {
+                    "message": "Error in spec file (TokenCertora.spec:10:13): Syntax error: unexpected token near `.`",
+                    "location": []
+                },
+                {
+                    "message": "Error in spec file (TokenCertora.spec:26:34): Syntax error: unexpected token near `>=`",
+                    "location": []
+                }
+            ]
+        }
+    ]
+}

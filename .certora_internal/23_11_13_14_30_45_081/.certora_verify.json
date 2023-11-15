@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "backdor",
+    "specfile": "/Users/secoalba/Documents/PROGRAMACIO\u0301N/BLOCKCHAIN_DEV/SOLIDITY/SECURITY/BLOG/FormalExamples/test/EXAMPLE_2/Certora/backdor.spec",
+    "specfileOrigRelpath": "test/EXAMPLE_2/Certora/backdor.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}
